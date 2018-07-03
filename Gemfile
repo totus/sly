@@ -1,4 +1,5 @@
 source 'http://rubygems.org'
 
-gem 'sinatra'
+gem 'bases'
 gem 'rake'
+gem 'sinatra'
