@@ -11,7 +11,7 @@ end
 
 get /.*/ do
   url = request.path_info[1..-1]
-  puts url
+  puts request
   status 200
   body Shrink.resolve(url)
 end
